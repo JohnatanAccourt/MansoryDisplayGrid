@@ -1,0 +1,19 @@
+body{
+    background-color: #272527;
+}
+
+.container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: masonry;
+}
+
+img{
+    width: 100%;
+    border-radius: 4px;
+}
+
+figure{
+    margin: 0;
+}
